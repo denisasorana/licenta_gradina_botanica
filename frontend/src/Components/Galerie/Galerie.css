@@ -1,0 +1,31 @@
+.titlu {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+.galerie {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.imag {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 10px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.imag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}

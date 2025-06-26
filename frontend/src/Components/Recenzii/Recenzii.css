@@ -1,0 +1,118 @@
+.recenzii-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+     background: #4368535d;
+}
+
+.recenzii-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recenzii-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box-recenzii {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    max-height: 200px;
+}
+
+.box p {
+    font-size: 17px;
+    line-height: 1.5;
+    color :rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info h3 {
+    font-size: 17px;
+    color :rgb(0, 0, 0);
+}
+
+.review-section {
+    background-color: rgba(104, 102, 102, 0.9);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 850px;
+    width: 100%;
+    max-height: 400px;
+    margin: 60px auto 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .review-section h4 {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .review-input,
+  .review-textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .review-textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .review-button {
+    background-color: rgb(192, 206, 196);
+    color: rgb(2, 2, 2);
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background-color: rgb(32, 94, 50);
+  }
+
+
+  

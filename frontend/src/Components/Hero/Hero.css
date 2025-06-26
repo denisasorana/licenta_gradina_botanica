@@ -1,0 +1,45 @@
+.hero {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to left,
+      rgba(169, 149, 149, 0.085),
+      rgba(97, 91, 91, 0.653)
+    ),
+    url("/assets/fundal-gradina.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.hero.div-container {
+  position: absolute;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+.hero-text {
+  font-size: 70px;
+}
+.hero .discover {
+  top: 30%;
+}
+
+.hero-line {
+  border: none;
+  border-top: 10px solid white;
+  margin-left: 45px;
+  margin-right: 50px;
+}
+
+#buton-gradina {
+  margin-bottom: 7%;
+}

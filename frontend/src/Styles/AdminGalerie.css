@@ -1,0 +1,45 @@
+.admin-galerie {
+  padding: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section input {
+  margin-right: 10px;
+}
+
+.galerie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.galerie-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.galerie-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.galerie-item button {
+  margin-top: 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.galerie-item button:hover {
+  background-color: #cc0000;
+}

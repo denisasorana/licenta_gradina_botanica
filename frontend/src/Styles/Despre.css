@@ -1,0 +1,85 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1f2b24;
+  padding-bottom: 100px;
+}
+.AboutUs {
+  color: white;
+  padding: 40px 100px;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.AboutUs h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.AboutUs p {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Orar,
+.Preturi,
+.Abonamente,
+.Grupuri {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(132, 180, 160, 0.177);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(238, 231, 231, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.Orar.h3,
+.Preturi h3,
+.Abonamente h3,
+.Grupuri h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.Preturi p,
+.Abonamente p,
+.Grupuri p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-cumpara-bilete {
+  width: 180px;
+  height: 60px;
+  padding: 15px 0px;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: bold;
+  background: rgba(137, 232, 137, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cumpara-bilete:hover {
+  background-color: rgb(98, 110, 101);
+}

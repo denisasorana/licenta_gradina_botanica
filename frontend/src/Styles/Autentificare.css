@@ -1,0 +1,88 @@
+.box-autentificare {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    color: #888;
+    transition: color 0.3s ease;
+  }
+  
+  .active-tab {
+    color: #1a472a;
+    border-bottom: 3px solid #1a472a;
+  }
+  
+  .underline {
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  
+  .input img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .input input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .submit-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .submit {
+    padding: 12px 30px;
+    background-color: #1a472a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #275c38;
+  }
+  
+.eroare{
+  color: #000;
+}

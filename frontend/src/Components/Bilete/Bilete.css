@@ -1,0 +1,191 @@
+
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;          
+  margin-top: 100px;  
+  
+}
+
+.bilete-box,
+.subs-box {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  flex: 0 0 300px;
+  background: #fafafa;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-height: 420px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.bilete-box h3,
+.subs-box h3 {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+
+.label-date {
+  display: block;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.date-picker {
+  width: 200px;
+  padding: 6px;
+  font-size: 15px;
+  margin: 0 auto 20px; 
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+
+.ticket-row {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.ticket-row label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 6px;
+  width: 100%;
+  text-align: left;
+}
+
+.ticket-row input {
+  width: 100%;
+  max-width: 100px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.bilete-box input[disabled] {
+  background-color: #eaeaea;
+  cursor: not-allowed;
+}
+
+
+.discount-note {
+  font-size: 14px;
+  color: #0a110f;
+  font-weight: bold;
+  margin-top: 12px;
+  text-align: center;
+}
+
+
+.radio-row {
+  display: flex;
+  flex-direction: column;  
+  margin-bottom: 15px;
+}
+
+.radio-row label {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.radio-row input[type="radio"] {
+  margin-right: 8px;
+}
+
+.subs-note {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 15px;
+  color: #555;
+}
+
+
+.box-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.box-total span {
+  font-size: 16px;
+  color: #333;
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 16px;
+  color: #27ae60;
+}
+
+
+.action-button {
+  width: 100%;
+  max-width: 260px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 25px auto 0;
+  display: block;
+  text-align: center;
+  transition: background-color 0.3s;
+  bottom: 0px;
+}
+
+.bilet-button
+{
+  margin-top: auto; 
+  color: #333;
+}
+
+.subs-button
+{
+  margin-top: -0.5px;
+  color: #333;
+}
+
+.bilet-button:hover {
+  background-color: #27ae60;
+}
+
+
+
+.subs-button:hover {
+  background-color: #1f8a4a;
+}
+
+
+
+  .bilete-box,
+  .subs-box {
+    width: 90%;
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+

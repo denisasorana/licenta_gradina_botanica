@@ -1,0 +1,74 @@
+.admin-senzori-container {
+  max-width: 1000px;
+  margin: 100px auto 50px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f0f4f8;
+}
+
+.admin-senzori-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333333d3;
+}
+
+.sensor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.sensor-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sensor-box h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.sensor-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e3321;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1 1 250px;
+}
+
+.sensor-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #358e41;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sensor-button:hover {
+  background-color: #42754f;
+}
+
+input[type="range"].uv-slider::-webkit-slider-thumb {
+  background-color: #175929;
+  border-radius: 50%;
+  border: none;
+}
+
+input[type="range"].uv-slider::-webkit-slider-runnable-track {
+  background-color: #24593d81;
+  height: 6px;
+}
